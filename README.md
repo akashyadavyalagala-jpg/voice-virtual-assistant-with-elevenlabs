@@ -12,6 +12,7 @@ Live microphone input
 Interrupt handling support
 Environment variable security with .env
 Simple and beginner-friendly setup
+
 🛠️ Tech Stack
 Python
 ElevenLabs Conversational AI API
@@ -57,6 +58,7 @@ After running:
 The assistant starts listening through your microphone
 You can talk naturally
 The AI responds in real time
+
 🧠 How It Works
 
 The assistant:
@@ -70,14 +72,15 @@ User speech
 AI responses
 Interruptions
 Session ending events
-📌 Example Custom Prompt
-schedule = "Sales Meeting with Taipy at 10:00; Gym with Sophie at 17:00"
+
+📌 Example Custom Prompt schedule = "Sales Meeting with Taipy at 10:00; Gym with Sophie at 17:00"
 
 prompt = f"You are a helpful assistant. Your interlocutor has the following schedule: {schedule}."
 
 This allows the assistant to respond contextually based on user information.
 
 🎯 Future Improvements
+
 GUI interface
 Wake word detection
 Memory system
@@ -86,7 +89,9 @@ AI task automation
 Calendar integration
 Local voice cloning
 Conversation history storage
+
 🐛 Common Issues
+
 PyAudio Installation Error
 Windows
 pip install pipwin
@@ -94,14 +99,17 @@ pipwin install pyaudio
 Microphone Not Detected
 Check microphone permissions
 Ensure default audio input device is selected
+
 📄 License
 
 This project is licensed under the MIT License.
 
 🙌 Acknowledgements
+
 ElevenLabs
 Python Community
 Open Source Contributors
+
 ⭐ Support
 
 If you found this project useful:
@@ -110,6 +118,7 @@ Star the repository
 Fork the project
 Share improvements
 Build your own AI assistant on top of it
+
 👨‍💻 Author
 
 Built with Python and AI Voice Technology.
